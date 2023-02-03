@@ -5,54 +5,43 @@ import {
   Clock, 
   MagnifyingGlass} from "phosphor-react"
 
-const Topbar = () => (
-  <div className="flex flex-row items-center justify-between gap-8 p-8
-    w-full h-16 bg-gray-200 shadow-md">
+import Searchbar from "./Searchbar"
+
+const Topbar = () => ( // flex-row gap-8 p-8
+  <div className="flex flex-col items-center justify-between gap-8 p-2 flex-nowrap
+    w-full h-16 bg-gray-200 shadow-md
+    lg:flex-row
+    lg:p-8
+    lg:md:justify-around">
     
-    <div className="flex flex-row items-center justify-end gap-8 p-8">
+    {/*    */}
+    <div className="flex flex-row items-center justify-end gap-6 p-2
+      lg:gap-8
+      lg:p-8
+      lg:flex-row"
+    > 
       <div>
         <BellRinging
-          size={26}
+          size={22}
           weight="thin"
           className="hover:text-violet-400 transition-colors duration-200 ease-in"
         />
       </div>
       <div>
         <CalendarCheck
-          size={26}
+          size={22}
           weight="thin"
           className="hover:text-violet-400 transition-colors duration-200 ease-in"
         />
       </div>
       <div>
         <Clock
-          size={26}
+          size={22}
           weight="thin"
           className="hover:text-violet-400 transition-colors duration-200 ease-in"
         />
       </div>
     </div>
-
-    <form 
-      className="flex flex-row justify-center items-center gap-3
-        px-3
-        border border-zinc-100 rounded-lg bg-zinc-50
-        hover:border-zinc-300
-        transition-colors duration-200 ease-in
-        focus:outline-none"
-    >
-      <MagnifyingGlass 
-        size={20}
-        weight="thin"
-        className="text-zinc-600"
-      />
-
-      <input 
-        type="text"
-        placeholder="Search for something" 
-        className="w-full bg-zinc-50 p-2 transition-colors focus:outline-none text-sm"
-      />
-    </form>
 
   </div>
 )
