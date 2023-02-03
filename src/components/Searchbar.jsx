@@ -3,7 +3,7 @@ import { MagnifyingGlass } from "phosphor-react"
 const Searchbar = () => (
   <form 
     className="flex flex-row justify-center items-center 
-      px-3 m-4
+      px-3 m-2
       border border-zinc-100 rounded-lg bg-zinc-50 shadow-md
       hover:border-zinc-300
       transition-colors duration-200 ease-in

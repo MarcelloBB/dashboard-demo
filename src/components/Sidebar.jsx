@@ -12,9 +12,11 @@ import {
 
 const Sidebar = () => (
   <nav
-    className="flex flex-col justify-evenly items-center
-      min-h-screen w-1/5 bg-gray-200 px-2 py-10 shadow-xl
-      lg:items-start"
+    className="sticky -right-10 flex flex-col justify-evenly items-center
+      min-h-screen w-1/6 bg-gray-200 px-2 py-10 shadow-xl
+      lg:items-start
+      lg:w-1/6
+      md:w-1/12"
   >
     <div
       className="flex flex-col items-center gap-4 ml-1 mb-8
