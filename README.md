@@ -12,7 +12,7 @@ npm run dev
 ```
 
 * Accessing Netlify (build
-https://github.com/MarcelloBB/dashboard-demo
+https://marcellobb-dashboard-demo.netlify.app/
 
 ## 📜 Techs
 * React
