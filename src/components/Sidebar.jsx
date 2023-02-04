@@ -62,7 +62,7 @@ const Sidebar = () => (
       />
 
       <span className="font-semibold text-sm ml-1 
-        hidden lg:inline">
+        hidden lg:inline text-violet-700">
           Dashboard
       </span>
     </div>

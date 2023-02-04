@@ -2,7 +2,7 @@ import { Airplane, Globe, Palette } from "phosphor-react"
 
 const Cards = () => (
   <section 
-    className="flex flex-col gap-3 justify-center items-center mt-6
+    className="flex flex-col gap-3 lg:gap-8 justify-center items-center mt-6
       text-zinc-700 
         lg:flex-row
     ">
@@ -10,7 +10,7 @@ const Cards = () => (
     {/* COUNTRIES */}
     <div
       className="flex flex-row items-center justify-between
-        bg-zinc-100 rounded-xl w-10/12
+        bg-zinc-100 rounded-xl w-10/12 shadow-md
           md:w-8/12
           lg:w-1/4"
     >
@@ -28,7 +28,7 @@ const Cards = () => (
     {/* TRANSPORTATIONS */}
     <div
       className="flex flex-row items-center justify-between
-        bg-zinc-100 rounded-xl w-10/12
+        bg-zinc-100 rounded-xl w-10/12 shadow-md
           md:w-8/12
           lg:w-1/4"
     >
@@ -46,7 +46,7 @@ const Cards = () => (
     {/* COLORS */}
     <div
       className="flex flex-row items-center justify-between
-        bg-zinc-100 rounded-xl w-10/12
+        bg-zinc-100 rounded-xl w-10/12 shadow-md
           md:w-8/12
           lg:w-1/4"
     >
