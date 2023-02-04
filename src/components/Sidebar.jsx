@@ -26,21 +26,21 @@ const Sidebar = () => (
         lg:mb-12"
         
     >
-      <a href="">
+      <a href="https://github.com/MarcelloBB">
         <GithubLogo
           size={24}
           className=" hover:text-violet-400 transition-colors duration-200 ease-in"
           weight="thin"
         />
       </a>
-      <a href="">
+      <a href="https://github.com/MarcelloBB/dashboard-demo">
         <GitBranch
           size={24}
           className="hover:text-violet-400 transition-colors duration-200 ease-in"
           weight="thin"
         />
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/marcello-belanda-batista-362109262" target="_blank">
         <LinkedinLogo
           size={24}
           className="hover:text-violet-400 transition-colors duration-200 ease-in"

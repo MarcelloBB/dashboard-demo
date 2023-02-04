@@ -27,7 +27,7 @@ const LineChart = () => {
     labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     datasets: [{
       label: "Sales of the week",
-      data: [5, 9, 4, 7, 12, 8, 6, 8],
+      data: [5, 9, 4, 7, 12, 8, 6],
       
       pointBorderColor: "aqua",
       fill: true,
