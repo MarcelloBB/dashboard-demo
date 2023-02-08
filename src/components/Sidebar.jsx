@@ -40,7 +40,7 @@ const Sidebar = () => (
           weight="thin"
         />
       </a>
-      <a href="https://www.linkedin.com/in/marcello-belanda-batista-362109262" target="_blank">
+      <a href="www.linkedin.com/in/marcello-belanda-batista" target="_blank">
         <LinkedinLogo
           size={24}
           className="hover:text-violet-400 transition-colors duration-200 ease-in"
